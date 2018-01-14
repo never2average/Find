@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/co" android:title="Courses Offered" android:icon="@drawable/ic_courses_offered"/>
+    <item android:id="@+id/ktp" android:title="Know The Professors" android:icon="@drawable/ic_professor"/>
+    <item android:id="@+id/ac" android:title="Activities" android:icon="@drawable/ic_local_activity_black_24dp"/>
+    <item android:id="@+id/se" android:title="Settings"  android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/he" android:title="Help" android:icon="@drawable/ic_help"/>
+    <item android:id="@+id/au" android:title="About us" android:icon="@drawable/ic_developers"/>
+</menu>

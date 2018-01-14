@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priyeshsrivastava.findmyclass.results_section"
+    android:orientation="vertical"
+    android:background="#fbf9dd">
+
+        <Button
+            android:textColor="#02611a"
+            android:id="@+id/back"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="BACK" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:gravity="right"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:text="Subject ID"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:hint="Subject"
+                android:textSize="30dp"
+                android:id="@+id/subjectidfield"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:gravity="right"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:text="Section"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:hint="Section"
+                android:textSize="30dp"
+                android:id="@+id/sectionno"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="71dp">
+            <TextView
+                android:gravity="right"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:text="Lecture/Tut/Pracical"
+                android:textSize="26dp"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:hint="class type"
+                android:textSize="30dp"
+                android:id="@+id/classtypefield"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/classroom"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Classroom location"
+                android:textSize="28dp"
+                />
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Instructor's name"
+                android:textSize="28dp"
+                android:id="@+id/instructor"
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:text="Days"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="Time Slot"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
